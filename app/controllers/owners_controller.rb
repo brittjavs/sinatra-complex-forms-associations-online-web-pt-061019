@@ -39,4 +39,5 @@ class OwnersController < ApplicationController
     @owner.save
     redirect "/owners/#{@owner.id}"
   end
+  end
 end
